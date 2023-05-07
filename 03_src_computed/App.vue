@@ -1,14 +1,14 @@
 <template>
   <div>
-    <Demo></Demo>
+    <Student></Student>
   </div>
 </template>
 
 <script>
-import Demo from './components/Demo.vue'
+import Student from './components/Student.vue'
 
 export default {
-  components: { Demo },
+  components: { Student },
   name: 'App',
 
 }
